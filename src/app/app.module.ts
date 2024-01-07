@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { TopComponent } from './top/top.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { PostComponent } from './post/post.component';
-import { HttpInterceptorService } from './http-interceptor.service';
+import { HttpInterceptorService } from './interceptors/http-interceptor.service';
 
 @NgModule({
   declarations: [

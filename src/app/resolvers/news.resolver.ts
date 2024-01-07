@@ -1,4 +1,4 @@
-import { NewsService } from './news.service';
+import { NewsService } from '../services/news.service';
 import { Injectable } from '@angular/core';
 import {
   Resolve,

@@ -1,10 +1,10 @@
-import { NewsResolver } from './news.resolver';
+import { NewsResolver } from './resolvers/news.resolver';
 import { TopComponent } from './top/top.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PostComponent } from './post/post.component';
-import { PostResolver } from './post.resolver';
+import { PostResolver } from './resolvers/post.resolver';
 
 const routes: Routes = [
   {
